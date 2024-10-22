@@ -1,15 +1,15 @@
 {
-  "title": "Light, fast & responsive",
-  "text": "This template is ready to use, so you don't need to change anything at a component level, unless you want to customize the default styling.",
+  "title": "Отслеживание пригласительных ссылок",
+  "text": "Tgmetric следит за всеми вашими ссылками. Вы узнаете сколько людей подписалось/отписалось в конкретной рекламной компании. ",
   "section": [
     {
-      "title": "Why Antd?",
-      "content": "Ant Design is a React UI library that has a lot of easy-to-use components for building elegant UI.",
+      "title": "Зачем?",
+      "content": "Хотите знать, работает ли ваша реклама в Telegram? Tgmetric отследит, сколько подписчиков вы привлекли с помощью рекламы, и поможет оптимизировать затраты.",
       "icon": "notes.svg"
     },
     {
-      "title": "Why styled-components?",
-      "content": "Styled Components gives you total control over your components.",
+      "title": "Почему TGmetric?",
+      "content": " Tgmetric — простой инструмент для отслеживания рекламы в Telegram. Не нужно изучать сложные программы, Tgmetric делает все за вас!",
       "icon": "notes.svg"
     }
   ]

@@ -34,21 +34,14 @@ const Header = ({ t }: { t: TFunction }) => {
     return (
       <>
         <CustomNavLinkSmall onClick={() => scrollTo("about")}>
-          <Span>{t("About")}</Span>
-        </CustomNavLinkSmall>
-        <CustomNavLinkSmall onClick={() => scrollTo("mission")}>
-          <Span>{t("Mission")}</Span>
-        </CustomNavLinkSmall>
-        <CustomNavLinkSmall onClick={() => scrollTo("product")}>
-          <Span>{t("Product")}</Span>
+          <Span>{t("Возможности")}</Span>
         </CustomNavLinkSmall>
         <CustomNavLinkSmall
           style={{ width: "180px" }}
-          onClick={() => scrollTo("contact")}
         >
-          <Span>
-            <Button>{t("Contact")}</Button>
-          </Span>
+          <a href={'https://tgmetric.com/sign-up'}>
+            <Button>{t("Подключить")}</Button>
+          </a>
         </CustomNavLinkSmall>
       </>
     );
@@ -59,10 +52,12 @@ const Header = ({ t }: { t: TFunction }) => {
       <Container>
         <Row justify="space-between">
           <LogoContainer to="/" aria-label="homepage">
-            <SvgIcon src="logo.svg" width="101px" height="64px" />
+            <div style={{fontWeight: 'bold', fontSize: '30px'}}>
+              TGmetric
+            </div>
           </LogoContainer>
           <NotHidden>
-            <MenuItem />
+            <MenuItem/>
           </NotHidden>
           <Burger onClick={toggleButton}>
             <Outline />

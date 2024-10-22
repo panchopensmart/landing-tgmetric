@@ -27,9 +27,11 @@ const MiddleBlock = ({ title, content, button, t }: MiddleBlockProps) => {
               <h6>{t(title)}</h6>
               <Content>{t(content)}</Content>
               {button && (
-                <Button name="submit" onClick={() => scrollTo("mission")}>
-                  {t(button)}
-                </Button>
+                  <a href="https://tgmetric.com/sign-up">
+                    <Button name="submit">
+                      {t(button)}
+                    </Button>
+                  </a>
               )}
             </Col>
           </ContentWrapper>

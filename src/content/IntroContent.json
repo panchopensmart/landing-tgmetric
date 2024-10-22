@@ -1,13 +1,9 @@
 {
-  "title": "Landing page template for developers & startups",
-  "text": "Beautifully designed templates using React.js, ant design and styled-components! Save weeks of time and build your landing page in minutes.",
+  "title": "Хотите, чтобы ваша реклама в Telegram приносила больше продаж?",
+  "text": " Сквозная аналитика TGmetric покажет, где вы тратите деньги впустую, и как увеличить эффективность рекламных кампаний.",
   "button": [
     {
-      "title": "Explore"
-    },
-    {
-      "title": "Learn more",
-      "color": "#fff"
+      "title": "Узнать больше"
     }
   ]
 }
